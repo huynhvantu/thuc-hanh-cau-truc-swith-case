@@ -13,7 +13,8 @@ function xuly(){
 		var ketqua = (thang) + ' có 28 hoặc 29 ngày' ;
 		break;
 		default:
-		var ketqua = (thang)+' co 31 ngày'
+		var ketqua = (thang)+' có 31 ngày';
+
 	}
 	document.getElementById('ketquala').innerHTML = ' Tháng  ' + ketqua;
 	var thang1= document.getElementById('tinhsongay1').value;
